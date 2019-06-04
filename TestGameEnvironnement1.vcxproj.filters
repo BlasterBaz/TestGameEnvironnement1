@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\position">
-      <UniqueIdentifier>{b4c3bf02-933e-4e88-8a71-3aeb2830d396}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Fichiers sources\position">
-      <UniqueIdentifier>{6b892eca-dd8a-45dc-a6e2-99487e96354e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers d%27en-tête\gamePlay">
       <UniqueIdentifier>{adf706f0-6f06-42a5-9638-06a4dba359a5}</UniqueIdentifier>
     </Filter>
@@ -30,6 +24,12 @@
     </Filter>
     <Filter Include="Fichiers sources\Base">
       <UniqueIdentifier>{eec885f5-0244-4f0c-99be-09513d02c6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\action">
+      <UniqueIdentifier>{b68dd5cd-fba9-42ee-ba4b-d49e2ba67fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\action">
+      <UniqueIdentifier>{6b892eca-dd8a-45dc-a6e2-99487e96354e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +52,12 @@
       <Filter>Fichiers sources\Base</Filter>
     </ClCompile>
     <ClCompile Include="DVLObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="IAction.cpp">
+      <Filter>Fichiers sources\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -81,6 +87,12 @@
       <Filter>Fichiers d%27en-tête\Base</Filter>
     </ClInclude>
     <ClInclude Include="DVLObject.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="IAction.h">
+      <Filter>Fichiers d%27en-tête\action</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

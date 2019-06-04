@@ -124,10 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DVLMatrix.cpp" />
+    <ClCompile Include="IAction.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MapMonde.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="DVLObject.cpp" />
+    <ClCompile Include="Move.cpp" />
     <ClCompile Include="PNJ.cpp" />
     <ClCompile Include="Position.cpp" />
   </ItemGroup>
@@ -136,9 +138,11 @@
     <ClInclude Include="DVLVect2.h" />
     <ClInclude Include="DVLVect3.h" />
     <ClInclude Include="DVLVect4.h" />
+    <ClInclude Include="IAction.h" />
     <ClInclude Include="MapMonde.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="DVLObject.h" />
+    <ClInclude Include="Move.h" />
     <ClInclude Include="PNJ.h" />
     <ClInclude Include="Position.h" />
   </ItemGroup>
